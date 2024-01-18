@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("back.jpg");
+  /* color: white; */
+  background-position: bottom;
+  background-size: cover;
+  /* background-color: rgb(75, 58, 58)7, 48, 48); */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.here {
+  color: white;
+}
+.headercontent {
+  margin-bottom: 150px;
+  color: white;
+  text-align: center;
+}
+.headercontent h2 {
+  font-size: 4vmin;
+  /* display: flex;
+    justify-content: center;
+    align-items: flex-end; */
+}
+.line {
+  width: 150px;
+  height: 4px;
+  background: rgb(207, 60, 207);
+  margin: 10px auto;
+}
+
+.headercontent h1 {
+  font-size: 9vmin;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.ctn {
+  padding: 8px 15px;
+  background-color: rgb(207, 60, 207);
+  border-radius: 30px;
+  color: whitesmoke;
+}
+.navbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  padding: 13px;
+  color: white;
+  /* background-color: white; */
+}
+ul {
+  list-style: none;
+  color: black;
+}
+.navlinks {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.navlinks li {
+  margin: 2px 30px;
+  color: white;
+}
+.active {
+  color: white;
+  /* text-decoration: underline; */
+  font-weight: bold;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+.menu-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  cursor: pointer;
+  display: none;
+}
+
+@media only screen and (max-width: 850px) {
+  .menu-btn {
+    display: block;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  .navlinks {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background: rgb(245, 243, 243);
+    margin-top: -900px;
+    transition: all 0.5s ease;
+  }
+  .mobile-menu {
+    margin-top: 0px;
+    border-bottom-right-radius: 30%;
+  }
+  .navlinks li {
+    margin: 30px auto;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .row .col {
+    margin: 20px auto;
+  }
+  .col img {
+    max-width: 90%;
+  }
+  .explore-content {
+    width: 50%;
+  }
+  .explore-content h1 {
+    width: 50px;
+  }
+  .tours .column {
+    width: 100%;
+  }
+  .imagegallery {
+    justify-content: center;
+    align-items: center;
+  }
+  .imagegallery img {
+    width: 90%;
+  }
+  .footer {
+    padding: 10px;
+  }
+}
+
+section {
+  width: 80%;
+  margin: 80px auto;
+}
+.title {
+  text-align: center;
+  font-size: 4vmin;
+  color: rgb(80, 5, 150);
+}
+.row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  /* background: cyan; */
+}
+.row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.events .row {
+  margin-top: 50px;
+}
+h4 {
+  font-size: 4vmin;
+  color: blueviolet;
+  margin: 20px auto;
+}
+p {
+  color: brown;
+  padding: 0px;
+}
+.events .ctn {
+  margin-top: 30px;
+}
+.explore {
+  width: 100%;
+  height: 88vh;
+  background-image: url("bgy.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.explore-content {
+  width: 60%;
+  padding: 50px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.explore-content h1 {
+  font-size: 7vmin;
+  /* margin: 50px; */
+  width: 50%;
+}
+.explore-content .line {
+  margin-bottom: 50px;
+}
+.explore-content p {
+  color: white;
+}
+.explore-content .ctn {
+  margin-top: 40px;
+}
+
+/* .tours .imagegallery{
+  display: flex;
+flex-wrap: wrap;
+} */
+.imagegallery img {
+  width: 350px;
+  margin: 15px 18px;
+  padding: 16px;
+}
+
+.tours .row .column {
+  width: 71%;
+}
+
+.column h1 {
+  font-size: 7vmin;
+  color: black;
+}
+.column .line {
+  margin-left: -1px;
+}
+.column p {
+  padding: 0;
+  margin: 30px auto;
+}
+/* .column .ctn {
+  margin-left: -100px;
+} */
+
+.footer {
+  width: 100%;
+  min-height: 200px;
+  padding: 20px 80px;
+  margin: 0;
+  background: purple;
+  text-align: center;
+}
+.footer p {
+  color: whitesmoke;
+  margin: 20px auto;
+  padding: 20px auto;
+}

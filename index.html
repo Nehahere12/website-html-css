@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adventure</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">ADVENTURE</h1>
+      <ul class="navlinks">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="#">Tours</a></li>
+        <li class="active"><a href="#">Explore</a></li>
+        <li class="active"><a href="#">About</a></li>
+        <li><a class="ctn" href="#">Contact</a></li>
+      </ul>
+      <img src="bg4.png" alt="" class="menu-btn" />
+    </nav>
+
+    <header>
+      <div class="headercontent">
+        <h2>Explore the colorful world</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="#" class="ctn">LEARN MORE</a>
+      </div>
+    </header>
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming events</h1>
+        <div class="line"></div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <img src="trek.jpg" alt="" />
+          <h4>Everest Camp Trek</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur
+            sit repudiandae fuga quibusdam, veritatis animi asperiores fugiat
+            dicta iusto nam corporis. Cupiditate maiores, beatae pariatur itaque
+            et modi alias provident!
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+
+        <div class="col">
+          <img src="swim.jpg" alt="" />
+          <h4>Healthy swimming</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur
+            sit repudiandae fuga quibusdam, veritatis animi asperiores fugiat
+            dicta iusto nam corporis. Cupiditate maiores, beatae pariatur itaque
+            et modi alias provident!
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section class="explore">
+      <div class="explore-content">
+        <h1>Explore the world</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          soluta unde illo ex incidunt corporis, inventore rerum dolor porro
+          alias vero ullam odit, quia possimus debitis aliquid. Facilis,
+          molestiae natus!
+        </p>
+        <a href="#" class="ctn">learn More</a>
+      </div>
+    </section>
+
+    <section class="tours">
+      <div class="row">
+        <div class="column">
+          <h1>UPCOMING TOURS AND DESTINATIONS</h1>
+          <div class="line"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non velit
+            ab magni atque commodi ipsam, nihil iusto! Iste nihil,
+            exercitationem architecto obcaecati dolore veritatis ipsa odit amet
+            consequuntur temporibus libero est, hic adipisci et sit aliquam aut
+            pariatur praesentium possimus.
+          </p>
+          <a href="#" class="ctn"> Learn more </a>
+        </div>
+
+        <div class="imagecolumn">
+          <div class="imagegallery">
+            <img src="imgx.jpg" alt="" />
+            <img src="imgy.jpg" alt="" />
+            <img src="imgz.jpg" alt="" />
+            <img src="img10.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <p>
+        Location-A-608, Neelkanth Business Park, Vidyavihar (West),
+        Mumbai||phone-98102abcde
+      </p>
+      <p>Copyright © 2024. All Right Served.</p>
+    </section>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".navlinks");
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
